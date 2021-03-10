@@ -2,3 +2,4 @@
 /venv/
 /src/.env
 /.idea/
+/src/__pycache__/
