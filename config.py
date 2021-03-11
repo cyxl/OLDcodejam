@@ -3,7 +3,7 @@ from pathlib import Path
 import os
 
 
-env_path = Path('.') / '.env'
+env_path = Path('src') / '.env'
 load_dotenv(dotenv_path=env_path)
 
 
