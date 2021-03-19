@@ -3,3 +3,4 @@
 /.env
 /.idea/
 /src/__pycache__/
+/serviceAccountKey.json
