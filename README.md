@@ -46,8 +46,7 @@ Add gif here.
 
 ## Examples
 
-* Data
-Add picture here
+* [Data](GithubPictures\CodeJam\data_show.png)
 
 * Graph
 Add picture here
