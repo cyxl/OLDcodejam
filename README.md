@@ -10,10 +10,10 @@ I made this for a Tech With Tim codejam compitition
 The tracker has 1 feature right now and that is youtube tracking. I am planning to add more features like a chess elo tracker using there api, and a tiktok tracker.
 
 ## Features
-1. [Youtube Tracker](#Youtube Tracker)
+1. [YoutubeTracker](#YoutubeTracker)
 
 
-## **[Youtube Tracker](https://cyxl.org/stracker/youtube)**
+## **[YoutubeTracker](https://cyxl.org/stracker/youtube)**
 
 I collect the data everynight at 9:00pm EST. I have a list of youtubers I track [here](youtubers.md). 
 
@@ -34,6 +34,7 @@ Add gif here.
 * Youtuber Subscribers
 * Youtuber Likes
 * Youtuber Views
+* Youtuber Videos
 
 ### Example
 
