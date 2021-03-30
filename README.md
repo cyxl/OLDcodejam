@@ -29,7 +29,7 @@ I collect the data everynight at 9:00pm EST. I have a list of youtubers I track 
 * Youtuber bool(hiddensubscribers)
 * Youtuber Subscribers
 * Youtuber Likes
-* YOutuber Views
+* Youtuber Views
 
 ### Example
 
