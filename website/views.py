@@ -1,4 +1,6 @@
 from flask import render_template, Blueprint
+from bokeh.embed import components
+from bokeh.plotting import figure
 
 view = Blueprint("views", __name__)
 
@@ -11,8 +13,13 @@ def home():
 
 @view.route("/cj")
 @view.route("/stracker")
-def code_jam():
-    return render_template("cj_index.html")
-    # TODO make function's for yt twitch etc.
-    # TODO make html files for the buttons and more.
-    # TODO find out how to read a text box with python that is made in html.
+def stracker():
+    return render_template("cj.html")
+
+
+@view.route("/cj/youtube")
+@view.route("stracker/youtube")
+def youtube():
+    return render_template("youtube.html")
+
+

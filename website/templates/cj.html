@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>S-Tracker</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/cj_style.css') }}">
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='cj_app.js') }}"></script>
+</head>
+<body>
+  <div class="nav-container">
+    <header>
+      <a href="/cj" class="S-Tracker">S-Tracker</a>
+      <p class="smt">Social  Media Tracker</p>
+      <nav>
+        <ul>
+          <a href="#start" class="Start_btn">Start</a>
+          <a href="#about" class="About_btn">About</a>
+          <a href="#contact" class="Contactme_btn">Contact me</a>
+
+        </ul>
+      </nav>
+    </header>
+  </div>
+
+  <div class="hero" id="start">
+    <h1>Click to get Started</h1>
+    <div class="images">
+      <a href="/cj/youtube"><img src="{{ url_for('static',filename='images/youtube.png') }}" alt="youtube"></a>
+    </div>
+  </div>
+
+  <section class="about" id="about">
+    <div class="youtube">
+      <div class="transition2">
+        <p class="youtube-subtitle">Youtube</p>
+        <p class="youtube-title">The Youtube Tracker</p>
+        <p class="youtube-desc"><span>About</span><br>ipsum dolor sit amet consectetur adipisicing elit. Nam, commodi quos vitae architecto voluptate hic obcaecati dolorem rem atque distinctio voluptatibus necessitatibus, eveniet delectus possimus natus culpa saepe ullam quasi.</p>
+        <p class="youtube-used"><span>Tools Used</span><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem delectus nulla, odio omnis enim eaque deleniti amet laudantium. Enim fuga fugit ea asperiores! Id odit quas quasi architecto, possimus quo!</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-me" id="contact">
+    <h1>Contact Me</h1>
+    <p>Email: cyxlpublic@gmail.com</p>
+    <p>Check out my <a href="https://www.youtube.com/channel/UCezXdneBXBYMAxKZOQ0Gk4w/">youtube</a></p>
+    <p>Check out my <a href="https://github.com/cyxl">github</a></p>    
+  </section>
+</body>
+</html>
