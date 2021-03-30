@@ -1,5 +1,5 @@
-* Youtubers: 16 
-* Max Days: 10
+## Youtubers: 16
+## Max Days: 10
 
 * "Tech With Tim" | 10
 * "Corey Schafer" | 10
