@@ -46,7 +46,7 @@ Add gif here.
 
 ## Examples
 
-* [Data](GithubPictures\CodeJam\data_show.png)
+* [Data](https://github.com/cyxl/cyxl-org/blob/master/GithubPictures/CodeJam/data_show.png?raw=true)
 
 * Graph
 Add picture here
