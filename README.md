@@ -13,7 +13,7 @@ The tracker has 1 feature right now and that is youtube tracking. I am planning 
 1. [YoutubeTracker](#YoutubeTracker)
 
 
-## **[YoutubeTracker](https://cyxl.org/stracker/youtube)**
+## **[YoutubeTracker](https://cyxl-cj-dot-sound-scene.uc.r.appspot.com/cj/youtube)**
 
 I collect the data everynight at 9:00pm EST. I have a list of youtubers I track [here](youtubers.md). 
 
