@@ -1,11 +1,11 @@
 import json
 from urllib import request
-from config import YT_DEVELOPER_KEY, FIREBASE_URL
+from config import YT_DEVELOPER_KEY, FIREBASE_URL, CREDENTIALS
 import time
 import firebase_admin
 from firebase_admin import credentials, db
 
-creds = credentials.Certificate('../../../serviceAccountKey.json')
+creds = credentials.Certificate(CREDENTIALS)
 
 firebase_admin.initialize_app(creds, {
     'databaseURL': f'{FIREBASE_URL}'
