@@ -34,7 +34,6 @@ Add gif here.
 * Youtuber ID
 * Youtuber bool(hiddensubscribers)
 * Youtuber Subscribers
-* Youtuber Likes
 * Youtuber Views
 * Youtuber Videos
 
@@ -45,9 +44,8 @@ Add gif here.
 * How do I find a youtuber's id? To find a youtubers ID look at this [video](https://youtube.com)
 
 ## Examples
-
-* Data
-Add picture here
+* Data example | At the top you can see the timestamp and the 0 is a list number. I have it so the name and id are the parents to the data.
+![Data](https://github.com/cyxl/cyxl-org/blob/master/GithubPictures/CodeJam/data_show.png)
 
 * Graph
 Add picture here
