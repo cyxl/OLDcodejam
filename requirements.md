@@ -3,5 +3,3 @@
 * SubsriberCount ≤ 3,000
 * Views ≤ 5,000
 
-## Example photo
-
