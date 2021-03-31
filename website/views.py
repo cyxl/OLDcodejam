@@ -75,7 +75,7 @@ def stracker():
 
 
 @view.route("/cj/youtube")
-@view.route("stracker/youtube")
+@view.route("/stracker/youtube")
 def youtube():
     if request.method == 'POST':
         yt_id = request.form['yt_id']
